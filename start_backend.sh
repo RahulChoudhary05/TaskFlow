@@ -14,5 +14,5 @@ echo "Initializing database..."
 python database.py
 
 # Start the FastAPI server
-echo "Starting FastAPI server on http://localhost:8000"
+echo "Starting FastAPI server on https://taskflowrahulchoudhary.up.railway.app"
 uvicorn main:app --reload --port 8000

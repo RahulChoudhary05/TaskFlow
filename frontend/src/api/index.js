@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000/api";
+const BASE = (import.meta.env.VITE_API_BASE || "https://taskflowrahulchoudhary.up.railway.app/api").replace(/\/$/, "");
 
 function getToken() {
   return localStorage.getItem("token");
