@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://taskflowrahulchoudhary.up.railway.app',
+        target: 'https://taskflowrahulchoudhary.onrender.com',
         changeOrigin: true
       }
     }
